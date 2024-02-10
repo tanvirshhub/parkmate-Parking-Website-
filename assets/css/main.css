@@ -1,0 +1,55 @@
+#hero{
+    background-image: url(/assets/img/hero\ bg.png);
+    /* height: 100vh; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+img{
+    max-width: 100%;
+}
+
+.single-service{
+    position: relative;
+    z-index: 2;
+    padding: 20px;
+    margin: 20px 10px;
+
+}
+
+/* .right-sv{
+    background-image: url(/assets/img/Group1000005663.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    max-width: 100%;
+    background-position: center;
+} */
+.sv-card-left{
+    background-image: url(/assets/img/Rectangle5119.png);
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    top: 0;
+    left: 0;
+    width: 500px;
+    height: 500px;
+    z-index: -2;
+}
+
+.center-sv{
+    background-image: url(/assets/img/shape-151.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    max-width: 100%;
+    background-position: center;
+}
+
+/* .left-sv{
+    background-image: url(/assets/img/Rectangle5119.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    max-width: 100%;
+    background-position: center;
+} */
