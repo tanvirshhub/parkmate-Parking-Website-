@@ -1,3 +1,4 @@
+/* hero start */
 #hero{
     background-image: url(/assets/img/hero\ bg.png);
     /* height: 100vh; */
@@ -28,9 +29,9 @@ img{
     max-width: 100%;
 }
 
-.inner-services{
-    margin: 40px 0px;
-}
+/* hero end */
+
+/* services start */
 
 .single-service{
     position: relative;
@@ -38,6 +39,7 @@ img{
     padding: 20px;
     margin: 140px 10px;
 }
+
 .sv-card-left, .sv-card-right{
     position: absolute;
     background-repeat: no-repeat;
@@ -46,7 +48,6 @@ img{
     width: 500px;
     height: 432px;
     z-index: -2;
-
 }
 
 .sv-card-left{
@@ -81,6 +82,7 @@ img{
     justify-content: center;
     margin: 10px;
     margin-top: -40px;
+    padding: 50px 0px;
 }
 
 .sv-btn{
@@ -90,3 +92,35 @@ img{
     border-radius: 5px;
     text-decoration: none;
 }
+
+/* parking places start */
+
+.parking-places{
+    background-color: var(--primary-light);
+    padding: 50px 0px;
+}
+
+.section-title{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.single-card {
+    margin-bottom: 20px;
+  }
+
+  .card-title{
+    font-family: var(--p-bold1);
+    font-weight: var(-p-bold1);
+    font-size: var(--h6-size);
+  }
+
+.more-places-btn {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px 0px 0px;
+  }
+
+.prices, .single-items {
+    gap: 5px;
+    align-items: baseline;
+  }
