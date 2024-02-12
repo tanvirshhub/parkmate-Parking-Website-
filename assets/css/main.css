@@ -96,13 +96,18 @@ img{
 /* parking places start */
 
 .parking-places{
-    background-color: var(--primary-light);
+    background-color: #f6f6f6;
     padding: 50px 0px;
 }
 
 .section-title{
     text-align: center;
     padding-bottom: 30px;
+}
+.places-title, .points-title{
+    font-family: var(--p-bold1);
+    font-size: var(--h2-size);
+    font-weight: bold;
 }
 .single-card {
     margin-bottom: 20px;
@@ -124,3 +129,32 @@ img{
     gap: 5px;
     align-items: baseline;
   }
+
+  /*Parking Places end */
+
+  /* Parking Points start */
+
+.Parking-Points{
+    padding: 50px 0px;
+    background-color: var(--white);
+}
+#left-points{
+    max-width: 100%;
+    align-items: center;
+    height: 100%;
+
+}
+.left-points{
+    background-image: url(/assets/img/Group1000005683.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    padding-right: 60px;
+}
+.point-list{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
