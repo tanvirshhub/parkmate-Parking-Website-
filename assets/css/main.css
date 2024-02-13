@@ -111,6 +111,7 @@ img{
 }
 .single-card {
     margin-bottom: 20px;
+    border: none !important;
   }
 
   .card-title{
@@ -157,17 +158,41 @@ img{
     display: flex;
     align-items: center;
 }
-
-.point-list{
-    display: flex;
-    gap: 5px;
-    align-items: flex-start;
+.right-point-list ul {
+    padding: 0px !important;
+}
+.right-point-list ul li {
+     background: url(../img/check-mark-circle.svg) no-repeat;
+    background-position: left center;        background-size: contain;
+    list-style: none;        
+    padding-left: 30px;
+    line-height: 1.6;
+    margin-top: 10px;
 }
 .get-contact{
     display: flex;
     justify-content: start;
     padding: 10px 0px 0px 0px;
+}
 
+/*reviews start*/
+
+.reviews{
+    background-color: black;
+    border-radius: 4px 80px;
+    padding: 30px 50px;
+    margin-bottom: 50px;
+}
+.single-reviews{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.review-content h3{
+    font-weight: bold;
+}
+.review-content{
+    color: var(--white);
 }
 
 
