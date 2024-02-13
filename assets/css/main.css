@@ -138,33 +138,36 @@ img{
     padding: 50px 0px;
     background-color: var(--white);
 }
-#left-points{
+/* #left-points{
     max-width: 100%;
     align-items: center;
     height: 100%;
 
-}
+} */
 .left-points{
     background-image: url(/assets/img/Group1000005683.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 85%;
     background-position: center;
     display: flex;
     justify-content: center;
-    padding-right: 60px;
+    padding-right: 80px;
 }
+#right-points{
+    display: flex;
+    align-items: center;
+}
+
 .point-list{
     display: flex;
     gap: 5px;
-    align-items: center;
+    align-items: flex-start;
 }
-/* .point-list{
+.get-contact{
     display: flex;
-    gap: 5px;
-    align-items: centegit r;
+    justify-content: start;
+    padding: 10px 0px 0px 0px;
+
 }
-.point-list{
-    display: flex;
-    gap: 5px;
-    align-items: center;
-} */
+
+
