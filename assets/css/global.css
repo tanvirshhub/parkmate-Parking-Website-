@@ -9,20 +9,11 @@ Version:	1.1
     padding:0;
     margin:0;
   }
-  
 body {
     margin: 0;
     padding: 0;
     line-height: normal;
   }
-
-  html {
-    font-family: 'Poppins', sans-serif;
-   -moz-text-size-adjust: 100%;
-   -webkit-text-size-adjust: 100%;
-   -ms-text-size-adjust: 100%;
-   text-size-adjust: 100%;
- }
  html,body {
    height: 100%;
    margin: 0;
