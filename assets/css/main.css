@@ -206,7 +206,7 @@ img{
 /* Easy steps  start */
 .easy-steps{
     background-color: var(--primary-light);
-    padding: 50px 0px;
+    padding: 50px 0px 10px 0px;
 }
 .inner-easy-steps{
     display: flex;
@@ -253,7 +253,6 @@ img{
 /* FAQ Start  */
 
 .faq{
-    ba
     padding: 50px 0px;
     background-color: var(--white);
 }
@@ -263,6 +262,52 @@ img{
 .left-faq{
     padding: 20px;
 }
+
+.faq-accordions {
+    padding: 1px 0px;
+    background: var(--white);
+    border-radius: 16px;
+    box-shadow: 0 0 15px rgba(52, 51, 51, 0.3); 
+}
+.accordion-item {
+	margin: 15px;
+	border-radius: 8px !important;
+    background-color: var(--primary);
+    color: var(--white);
+}
+.accordion-button {
+	color: var(--secondary); 
+	background-color: var(--primary-light);
+    font-weight: bold;
+    border-radius: 8px;
+}
+.accordion-button:not(.collapsed) {
+    font-weight: bold;
+	color: var(--white);
+	background-color: var(--primary);
+	box-shadow: none;
+    border-radius: 8px;
+}
+.accordion-button::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-plus' viewBox='0 0 16 16'%3E%3Cpath d='M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z'/%3E%3C/svg%3E");
+    transition: all 0.5s;
+    font-weight: bold;
+    font-size: 2em;
+  }
+  
+  .accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-dash' viewBox='0 0 16 16'%3E%3Cpath d='M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z'/%3E%3C/svg%3E");
+    font-weight: bold;
+    font-size: 2em;
+  }
+
+  .accordion-button:focus {
+	z-index: 3;
+	border:none;
+	outline: 0;
+	box-shadow:none;
+}
+  
 #right-faq{
     display: flex;
     align-items: center;
