@@ -75,7 +75,7 @@ img{
 
 .sv-card-right{
     background-image: url(/assets/img/Group1000005663.png);
-    right: -106px;
+    right: -92px;
 }
 
 .all-sv-btn{
@@ -324,3 +324,92 @@ img{
     display: flex;
     justify-content: start;
 }
+
+/* Our partners start */
+
+.owl-stage {
+	display: flex;
+	align-items: center;
+}
+.owl-item img {
+	width: 80% !important;
+}
+.our-partners-list {
+	padding: 0px 105px;
+}
+
+/* footer start */
+
+.footer{
+    background-image: url(/assets/img/footer-bg.png);
+    width: 100%;
+    background-size: cover;
+    background-position:center;
+    padding: 50px 0px;
+}
+.footer-logo{
+    padding-bottom: 15px;
+    width: 150px;
+}
+.content {
+	background-color:var(--white);
+	padding: 10px;
+	border-radius: 5px;
+	border-bottom: 10px solid var(--primary);
+    text-align: center;
+}
+.footer-tittle h4 a{
+	color: var(--white);
+	font-size: var(--h5-size);
+	font-weight: bold;
+	padding-bottom: 15px;
+	display: flex;
+	align-items: center;
+}
+.footer-tittle ul{
+    padding: 0px;
+}
+.footer-tittle ul li{
+    background: url(/assets/img/Vector.png);
+    background-position: left center;        background-size: 15px;
+    background-repeat: no-repeat;
+    list-style: none;        
+    padding-left: 30px;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+.footer-tittle ul li a{
+    text-decoration: none;
+    color: var(--white);
+}
+
+.inner-contact {
+	display: flex;
+	align-items: center;
+    gap: 10px;
+}
+.inner-contact img {
+	width: 30px;
+	background: white;
+	padding: 4px;
+	border-radius: 50%;
+}
+.contact-content p{
+    color: var(--white);
+}
+
+
+
+/* Copyright start */
+.Copyright {
+	background-color: var(--primary);
+}
+.copyright-content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    padding: 10px;
+}
+.copyright-content p{
+    color: var(--white);
+    margin: 0px;
