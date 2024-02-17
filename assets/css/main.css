@@ -21,14 +21,44 @@
     z-index: -1;
     opacity: 0.9;
 }
-
 .nav-link{
     color: var(--white);
+    font-weight: bold;
+    font-family: var(--p-blod);
+}
+.nav-link:focus, .nav-link:hover {
+	color:var(--primary);
+    font-weight: bold;
+    font-family: var(--p-blod);
+}
+.leftside h1{
+    color: var(--white);
+    font-family: var(--p-bold1);
+    font-weight: bold;
+    font-size: var(--h1-size);
+}
+.hero-locations ul{
+        display: flex;
+        gap: 10px;
+        list-style: none;
+        margin-top: 30px;
+        padding-left: 0px;
+}
+.hero-locations ul li a {
+	background-color: white;
+	padding: 5px 10px;
+	border-radius: 5px;
+	text-decoration: none;
+    color: var(--secondary);
+    font-weight: bold;
+    font-family: var(--p-blod);
 }
 
 img{
     max-width: 100%;
 }
+
+
 
 /* hero end */
 
