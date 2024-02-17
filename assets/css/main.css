@@ -21,6 +21,9 @@
     z-index: -1;
     opacity: 0.9;
 }
+.navbar-nav {
+	gap: 11px;
+}
 .nav-link{
     color: var(--white);
     font-weight: bold;
@@ -30,6 +33,16 @@
 	color:var(--primary);
     font-weight: bold;
     font-family: var(--p-blod);
+}
+.nav-submit {
+	background: var(--primary);
+	color: var(--white);
+    font-weight: bold;
+}
+.nav-submit:hover {
+	background: var(--white);
+	color: var(--primary);
+	font-weight: bold;
 }
 .leftside h1{
     color: var(--white);
