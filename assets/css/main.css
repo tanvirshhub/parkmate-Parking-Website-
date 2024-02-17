@@ -1,11 +1,10 @@
 /* hero start */
 #hero{
     background-image: url(/assets/img/hero\ bg.png);
-    /* height: 100vh; */
+    height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     position: relative;
     background-size: cover;
     z-index: 0;
@@ -41,14 +40,33 @@
 }
 .nav-submit:hover {
 	background: var(--white);
-	color: var(--primary);
+	color: var(--secondary);
 	font-weight: bold;
+}
+.hero-content {
+    height: calc(100vh - 87px);
+    display:flex;
+    align-items: center;
 }
 .leftside h1{
     color: var(--white);
     font-family: var(--p-bold1);
     font-weight: bold;
     font-size: var(--h1-size);
+}
+.hero-form {
+	padding-right: 90px;
+}
+.form-control{
+    padding: 12px;
+}
+.hero-form button {
+    background-color: var(--primary);
+    color: var(--white);
+}
+.hero-form button:hover {
+    background-color: var(--white);
+    color: var(--secondary);
 }
 .hero-locations ul{
         display: flex;
@@ -71,6 +89,37 @@ img{
     max-width: 100%;
 }
 
+.rightside{
+    background-image: url(/assets/img/Group1000005683);
+    position: relative;
+}
+.mapouter {
+	background-color: var(--secondary);
+	border-radius: 50%;
+	padding: 20px 10px;
+	text-align: center;
+	color: #ffffff;
+	width: 113px;
+	position: absolute;
+	right: 101px;
+	z-index: 2;
+}
+.mapouter h6{
+    font-family: var(--p-bold1);
+    font-weight: bold;
+    font-size: var(--h6-size);
+    color: var(--primary);
+    margin-bottom: 0px;
+
+}
+.right-banner {
+	position: relative;
+    top: 40px;
+}
+.right-banner img{
+    width: 80%;
+    padding-left: 30px;
+}
 
 
 /* hero end */
@@ -456,3 +505,4 @@ img{
 .copyright-content p{
     color: var(--white);
     margin: 0px;
+}
