@@ -113,6 +113,7 @@ img{
 
 }
 .right-banner {
+    /* background-image: url(/assets/img/Group1000005683.png); */
 	position: relative;
     top: 40px;
 }
@@ -298,7 +299,7 @@ img{
 /* Easy steps  start */
 .easy-steps{
     background-color: var(--primary-light);
-    padding: 50px 0px 10px 0px;
+    padding: 50px 0px;
 }
 .single-easy-steps{
     text-align: center;
@@ -506,3 +507,5 @@ img{
     color: var(--white);
     margin: 0px;
 }
+
+/* about us page */
