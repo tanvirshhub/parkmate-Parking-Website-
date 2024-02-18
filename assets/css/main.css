@@ -64,10 +64,6 @@
     background-color: var(--primary);
     color: var(--white);
 }
-.hero-form button:hover {
-    background-color: var(--white);
-    color: var(--secondary);
-}
 .hero-locations ul{
         display: flex;
         gap: 10px;
@@ -473,7 +469,7 @@ img{
 .inner-contact {
 	display: flex;
 	align-items: center;
-    gap: 10px;
+    gap: 14px;
 }
 .inner-contact img {
 	width: 30px;
@@ -545,4 +541,68 @@ img{
 .secondary-hero-content .form-control {
 	padding: 12px 280px 12px 10px;
 	text-align: start;
+}
+
+/* contact page */
+.secondary-contact{
+    padding: 60px 0px;
+    background-color: var(--primary-light);
+}
+/* .contact-left{
+    display: flex;
+    align-items: center;
+} */
+.secondary-contact h1{
+    font-family: var(--outfit);
+    font-weight: bold;
+    font-size: var(--h1-size);
+}
+.secondary-contact .inner-contact img {
+	width: 50px;
+  background: white;
+  padding: 12px;
+  border-radius: 50%;
+}
+.secondary-contact p{
+    color: var(--p);
+
+}
+.secondary-contact h5{
+    color: var(--secondary);
+    font-family: var(--inter);
+    font-weight:bold;
+}
+.secondary-contact .inner-contact{
+    padding: 10px 0px;
+}
+.contact-form-head {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	justify-content: center;
+}
+.secondary-contact .contact_right {
+	margin: 18px 50px;
+}
+.secondary-contact .contact_right .row{
+	background-color: var(--white);
+	padding: 30px 20px;
+	border-radius: 30px;
+}
+.form-submit {
+	background: var(--primary);
+	text-align: center;
+    border-radius: 10px;
+}
+.form-submit .btn {
+	color: var(--white);
+	font-family: var(--inter);
+	font-weight: bold;
+	padding: 6px 0px;
+	font-size: var(--h6-size);
+}
+
+/* google map */
+.google-map{
+    padding-bottom: 60px;
 }
