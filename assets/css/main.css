@@ -26,12 +26,12 @@
 .nav-link{
     color: var(--white);
     font-weight: bold;
-    font-family: var(--p-blod);
+    font-family: var(--inter);
 }
 .nav-link:focus, .nav-link:hover {
 	color:var(--primary);
     font-weight: bold;
-    font-family: var(--p-blod);
+    font-family: var(--inter);
 }
 .nav-submit {
 	background: var(--primary);
@@ -50,7 +50,7 @@
 }
 .leftside h1{
     color: var(--white);
-    font-family: var(--p-bold1);
+    font-family: var(--outfit);
     font-weight: bold;
     font-size: var(--h1-size);
 }
@@ -82,7 +82,7 @@
 	text-decoration: none;
     color: var(--secondary);
     font-weight: bold;
-    font-family: var(--p-blod);
+    font-family: var(--inter);
 }
 
 img{
@@ -105,7 +105,7 @@ img{
 	z-index: 2;
 }
 .mapouter h6{
-    font-family: var(--p-bold1);
+    font-family: var(--outfit);
     font-weight: bold;
     font-size: var(--h6-size);
     color: var(--primary);
@@ -176,7 +176,7 @@ img{
     justify-content: center;
     margin: 10px;
     margin-top: -40px;
-    padding: 50px 0px;
+   padding: 60px 0px;
 }
 
 .sv-btn{
@@ -190,12 +190,12 @@ img{
 
 .parking-places{
     background-color:var(--primary-light);
-    padding: 50px 0px;
+   padding: 60px 0px;
 }
 .section-title{
     text-align: center;
     padding-bottom: 20px;
-    font-family: var(--p-bold1);
+    font-family: var(--outfit);
     font-size: var(--h2-size);
     font-weight: bold;
 }
@@ -205,7 +205,7 @@ img{
   }
 
   .card-title{
-    font-family: var(--p-bold1);
+    font-family: var(--outfit);
     font-weight: bold;
     font-size: var(--h6-size);
   }
@@ -226,15 +226,9 @@ img{
   /* Parking Points start */
 
 .Parking-Points{
-    padding: 50px 0px;
+   padding: 60px 0px;
     background-color: var(--white);
 }
-/* #left-points{
-    max-width: 100%;
-    align-items: center;
-    height: 100%;
-
-} */
 .left-points{
     background-image: url(/assets/img/Group1000005683.png);
     background-repeat: no-repeat;
@@ -251,7 +245,7 @@ img{
 .section-inner-title{
     text-align: start;
     padding-bottom: 20px;
-    font-family: var(--p-bold1);
+    font-family: var(--outfit);
     font-size: var(--h2-size);
     font-weight: bold;
 }
@@ -282,10 +276,10 @@ img{
 .single-reviews{
     display: flex;
     gap: 10px;
-    align-items: flex-start;
+    align-items: center;
 }
 .review-content h3{
-    font-family: var(--p-bold1);
+    font-family: var(--outfit);
     font-weight: bold;
     font-size: var(--h3-size);
 }
@@ -299,7 +293,7 @@ img{
 /* Easy steps  start */
 .easy-steps{
     background-color: var(--primary-light);
-    padding: 50px 0px;
+   padding: 60px 0px;
 }
 .single-easy-steps{
     text-align: center;
@@ -307,7 +301,7 @@ img{
 }
 
 .steps-title{
-    font-family: var(--p-bold1);
+    font-family: var(--outfit);
     font-weight: bold;
     font-size: var(--h6-size);
   }
@@ -342,7 +336,7 @@ img{
 /* FAQ Start  */
 
 .faq{
-    padding: 50px 0px;
+   padding: 60px 0px;
     background-color: var(--white);
 }
 .faq-overlaw-image{
@@ -438,7 +432,7 @@ img{
     width: 100%;
     background-size: cover;
     background-position:center;
-    padding: 50px 0px;
+   padding: 60px 0px;
 }
 .footer-logo{
     padding-bottom: 15px;
@@ -509,3 +503,46 @@ img{
 }
 
 /* about us page */
+#secondary-hero{
+    background-image: url(/assets/img/hero\ bg.png);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-size: cover;
+    z-index: 0;
+}
+.secondary-hero-content {
+	text-align: center;
+	padding: 40px 0px;
+}
+.secondary-hero-content h3{
+    font-family: var(--outfit);
+    font-weight: bold;
+    font-size: var(--h3-size);
+    color: var(--white);
+}
+.secondary-left-points{
+    display: flex;
+    justify-content: center;
+}
+.secondary-left-points img {
+	width: 100%;
+	margin: 20px;
+	border-radius: 20px;
+}
+
+/* parking zone page */
+.secondary-hero-content .hero-form {
+	display: flex;
+	justify-content: center;
+    padding: 8px 0px 0px 0px;
+}
+.secondary-hero-content .hero-locations{
+    display: flex;
+    justify-content: center;
+}
+.secondary-hero-content .form-control {
+	padding: 12px 280px 12px 10px;
+	text-align: start;
+}

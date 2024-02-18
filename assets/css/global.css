@@ -23,6 +23,10 @@ body {
  }
  :root{
     /* fonts*/
+    --inter: Inter;
+    --outfit: Outfit;
+
+    
     --p: Inter;
     --p-blod:  Inter;
     --p-bold1: Outfit;
