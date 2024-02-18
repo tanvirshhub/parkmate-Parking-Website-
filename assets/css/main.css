@@ -421,6 +421,50 @@ img{
 	padding: 0px 105px;
 }
 
+/* newslater start */
+.newsletter{
+    background-color: var(--primary);
+    padding: 20px 0px;
+}
+.newsletter .contact-content p{
+    margin-bottom: 0px;
+    color: var(--secondary);
+}
+.newsletter .contact-content h5{
+    color: var(--white);
+    font-weight: bold;
+}
+.newsletter .icon-list {
+	display: flex;
+	align-items: center;
+}
+.newsletter .icon-list ul {
+	display: flex;
+	text-decoration: none;
+	list-style: none;
+	gap: 10px;
+    margin-bottom: 0px;
+}
+.newsletter-form {
+	padding: 7px 20px;
+	background: white;
+	width: 85%;
+	border-radius: 5px;
+}
+.newsletter-form  form{
+    display: flex;
+    justify-content: space-between;
+}
+.newsletter-form  input{
+    border: none;
+}
+.newsletter-form button {
+	background-color: var(--secondary);
+	color: var(--white);
+	padding: 4px 7px;
+	border-radius: 6px;
+}
+
 /* footer start */
 
 .footer{
