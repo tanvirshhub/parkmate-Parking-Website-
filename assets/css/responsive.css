@@ -1,0 +1,30 @@
+/* =====================================
+Template Name: 	Parkmate.
+Author Name: Thoufik Tanvir
+Website: http://tanvirover.com/
+Description: Parkmate - Parking Zone.
+Version:	1.1
+========================================*/ 
+/* Tablet Screen */
+@media only screen and (min-width : 768px) and (max-width : 991px) {
+
+} 
+/* Mobile Screen */
+@media only screen and (max-width : 767px) {
+    
+} 
+/* Mobile Screen */
+@media only screen and (max-width : 479px) {
+    
+} 
+/* Mobile Screen */
+@media only screen and (max-width : 320px) {
+    
+} 
+/* Mobile Screen */
+@media only screen and (max-width : 568px) {
+    
+    
+    
+}
+}
