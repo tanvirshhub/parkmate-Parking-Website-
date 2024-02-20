@@ -9,7 +9,7 @@ Version:	1.1
 /* hero start */
 #hero{
     background-image: url(/assets/img/hero\ bg.png);
-    height: 100vh;
+    min-height: 700px;
     width: 100%;
     display: flex;
     flex-direction: column;
