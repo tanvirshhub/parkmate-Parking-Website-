@@ -1,3 +1,11 @@
+/* =====================================
+Template Name: 	ParkingZone Directory HTML CSS Template.
+Author Name: Md Thoufik Tanvir
+Website: http://tanvirover.com/
+Description: ParkingZone offers a wide range of products for parking, traffic, safety, valet and on-street construction. Shop online for delineators, gate arms, chalk sticks, safety mirrors, traffic cones, column protection and more.
+Version:	1.1
+========================================*/ 
+
 /* hero start */
 #hero{
     background-image: url(/assets/img/hero\ bg.png);
@@ -60,9 +68,23 @@
 .form-control{
     padding: 12px;
 }
+.hero-form input:focus { 
+    outline: none !important;
+    border-color: var(--primary);
+    box-shadow: 0 0 10px var(--primary);
+ }
+input:focus { 
+    outline: none !important;
+    box-shadow: none);
+ }
 .hero-form button {
     background-color: var(--primary);
     color: var(--white);
+}
+a:hover {
+	--bs-link-color-rgb: var(--bs-link-hover-color-rgb);
+	background: black;
+	font-weight: bold;
 }
 .hero-locations ul{
         display: flex;

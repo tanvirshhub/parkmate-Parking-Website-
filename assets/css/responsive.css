@@ -1,12 +1,13 @@
 /* =====================================
-Template Name: 	Parkmate.
-Author Name: Thoufik Tanvir
+Template Name: 	ParkingZone Directory HTML CSS Template.
+Author Name: Md Thoufik Tanvir
 Website: http://tanvirover.com/
-Description: Parkmate - Parking Zone.
+Description: ParkingZone offers a wide range of products for parking, traffic, safety, valet and on-street construction. Shop online for delineators, gate arms, chalk sticks, safety mirrors, traffic cones, column protection and more.
 Version:	1.1
 ========================================*/ 
 /* Tablet Screen */
 @media only screen and (min-width : 768px) and (max-width : 991px) {
+
 
 } 
 /* Mobile Screen */
@@ -15,16 +16,53 @@ Version:	1.1
 } 
 /* Mobile Screen */
 @media only screen and (max-width : 479px) {
-    
-} 
-/* Mobile Screen */
-@media only screen and (max-width : 320px) {
-    
+    .hero-content {
+        display: flex;
+        align-items: normal;
+    }
+    .leftside h1 {
+        font-size: var(--h4-size);
+    }
+    .leftside img{
+        display: none;
+    }
+    .hero-content {
+        justify-content: center;
+        margin-top: 25px;
+    }
+    .hero-form {
+        padding-right: 0px;
+    }
+    .form-control {
+        padding: 5px;
+    }
+    .hero-locations ul {
+        display: grid;
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 10px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .sv-card-left {
+        right: -65px;
+      }
+      .sv-card-left, .sv-card-right {
+        background-size: auto;
+      }
+      .sv-card-right {
+        left: -104px;
+    }
+    .right-sv {
+        padding-left: 20px;
+    }
+      #center-sv {
+        display: none;
+    }
+
 } 
 /* Mobile Screen */
 @media only screen and (max-width : 568px) {
     
     
     
-}
 }
